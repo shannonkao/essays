@@ -1,0 +1,33 @@
+body {
+    background-repeat: repeat;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+#container {
+    display: none;
+    position: absolute;
+    bottom: 5rem;
+    left: 3rem;
+    width: 30rem;
+    max-width: 80%;
+    height: 80vh;
+    border: 2px solid black;
+    padding: 1rem;
+    overflow-y: scroll;
+}
+
+#container p {
+    width: 100%;
+}
+
+#button {
+    display: none;
+    position: absolute;
+    border: 2px solid black;
+    color: #fff;
+    background-color: black;
+    padding: 0.5rem;
+    left: 36rem;
+    bottom: 5rem;
+}

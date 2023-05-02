@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Essay Generator</title>
+    <meta charset="UTF-8" />
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div id="upload">
+        <form>
+            <input type="file" id="file" accept=".txt" onchange="parseTxt(this.files)">
+            <label class="button" for="file">Select a txt file</label>
+        </form>
+    </div>
+    <div id="container"></div>
+    <div id="button"></div>
+</body>
+
+</html>
