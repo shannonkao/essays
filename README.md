@@ -1,4 +1,10 @@
-# Upload a text file in the following format:
+# Essay renderer
+
+## About
+Live at https://shannonkao.github.io/essays/
+Inspired by https://dominoclub.itch.io/good-writers-are-perverts
+
+## Upload a file in the following format:
 ```
 title: Page Title
 image: https://link-to-background-image.com
